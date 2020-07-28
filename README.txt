@@ -14,9 +14,9 @@
     * Install the net-tools packages and execute the following command:
         * netstat -nltp
         * Check if the ports used for zookeeper and kafka figure in the list of the used ports.
-    * Unzip the file: "police-department-calls-for-service.rar" to "police-department-calls-for-service.json"
     * Run the kafka server in order to push the data of the json file to a kafka topic.
     * Run the data_stream.py file using the following command:
         * spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*] data_stream.py
     * Access the Spark UI in order to check out the jobs.
 
+PS: In order for the project to work you need to add the json file that we couldnt upload in the git due to it's size
