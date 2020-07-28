@@ -1,0 +1,8 @@
+Sources:
+--kafka:
+https://kafka-python.readthedocs.io/en/master/apidoc/KafkaProducer.html
+--json:
+https://docs.python.org/3/library/json.html
+--pyspark:
+https://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=structfield#pyspark.sql.types.StructField
+https://spark.apache.org/docs/2.1.0/structured-streaming-kafka-integration.html
