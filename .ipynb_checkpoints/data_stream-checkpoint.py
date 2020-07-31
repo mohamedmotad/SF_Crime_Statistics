@@ -144,7 +144,7 @@ if __name__ == "__main__":
         .appName("KafkaSparkStructuredStreaming") \
         .config("spark.ui.port",3000) \
         .getOrCreate()
-    spark.sparkContext.setLogLevel('INFO')
+    spark.sparkContext.setLogLevel("INFO")
 
     logger.info("Spark started")
 
