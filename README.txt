@@ -15,6 +15,7 @@
         * netstat -nltp
         * Check if the ports used for zookeeper and kafka figure in the list of the used ports.
     * Run the kafka server in order to push the data of the json file to a kafka topic.
+    * Run kafka consumer to execute the kafka consumer in order to test the topic
     * Run the data_stream.py file using the following command:
         * spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*] data_stream.py
     * Access the Spark UI in order to check out the jobs.
